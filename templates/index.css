@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+     url('images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+
+nav{
+    
+    width: 100%;
+    height: 70px;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    
+
+
+
+}
+.logo{
+    font-family:cursive;
+    font-size: 2.5em;
+    
+}
+
+
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 50px 10px 50px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: black;
+}
+
+a:first-child{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+.icon i{
+    font-size: 1.2rem;
+    color: rgb(77, 77, 168);
+    
+}
+
+.icon i:hover{
+    color: black;
+    
+}
+
+
+
+
+.icon a{
+    margin-left: 30px;
+    text-decoration: none;
+   
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+#camera{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+
+}
+
+
+.h-text input{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.h-text button{
+    width: 55px;
+    padding: 8px;
+    border:none;
+    outline: none;
+    color: rgb(15, 13, 124);
+    border-radius: 8px;   
+}
+
+.h-text button:hover{
+    color: black;
+    
+}
+
+
+.filter-gallery{
+    padding: 100px;
+}
+
+.portfolio-menu{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.portfolio-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.portfolio-menu ul li:hover{
+    color: white;
+    background: red;
+    border-radius: 8px;
+}
+
+
+li.active{
+    background: red;
+    border-radius: 8px;
+}
+
+.portfolia-item{
+    width: 100%;
+}
+
+.portfolia-item .item{
+    width: 360px;
+    height: 360px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.portfolia-item .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+.member{
+    width: 100%;
+    padding: 20px 100px;
+}
+
+
+.member-info{
+    text-align: center;
+}
+
+.member-info h1{
+    font-size: 2.5em;
+}
+.member-info h1 span{
+    color: aqua;
+}
+
+
+.card{
+    width: 100%;
+    align-items: center;
+    outline: none;
+    border:none;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+
+.card p{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card i{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.ms-5 {
+    margin-left: 32rem!important;
+    margin-top: 8px;
+    
+}
+
+
+.img{
+
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+
+.img img:hover{
+    transform: scale(1.5);
+
+}
+
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    
+}
+
+.ntext{
+    text-align: right;
+}
+
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-top: 80px;
+    
+}
+
+.newsletter >div{
+    flex-basis: 50%;
+    
+}
+
+.newsletter h2{
+    color: white;
+    
+}
+
+.newsletter p{
+    color: white;
+}
+.newsletter label{
+    position: relative;
+}
+.newsletter input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    right: 8%;
+
+}
+
+.newsletter button{
+    position: absolute;
+    right: 8%;
+    padding: 20px;
+    width: 10%;
+    border:none;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+    background: red;
+
+}
+
+
+
+.contact{
+    display: flex;
+    width: 100%;
+    margin: 15px;
+    justify-content: space-between;
+    margin: 3em;
+    
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact >div{
+    flex-basis: 50%;
+}
+
+
+.info {
+    color: white;
+    font-size: 15px;
+    line-height: 2em;
+    
+}
+
+.info p{
+    color: gray;
+}
+
+
+.info p:hover{
+    color: white;
+}
+
+.link{
+    color: white;
+}
+
+.link a{
+    color: gray;
+    line-height: 2em;
+
+    text-decoration: none;
+}
+
+
+.link a:hover{color: white;}
+
+.detail{
+    color: white;
+}
+
+.detail a{
+    text-decoration: none;
+    color: gray;
+    line-height: 2em;
+
+}
+
+
+.detail a:hover{color: white;}
+
+
+.help{
+    color: white;
+    
+}
+.help h1{
+    font-size: 35px;
+}
+
+.help a{
+    line-height: 2em;
+    text-decoration: none;
+    color: gray;
+}
+
+
+.help a:hover{
+    color: white;
+}
+
+
